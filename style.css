@@ -156,3 +156,73 @@
     height: 32px;
     margin-bottom: 40px;
 }
+.second__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px 50px;
+    background-color: #000;
+}
+.decentralised_second{
+    font-size: 13px;
+    font-weight: 500;
+    color: #9DFF3A;
+    margin-bottom: 16px;
+    border: 1px solid #999999;
+    border-radius: 40px;
+    padding: 12px;
+    max-width: 100px;
+}
+.title__text{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main__text{
+    color: #e5e5e5;
+}
+.cards__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+
+    align-items: stretch; /* <— важно */
+    gap: 30px;
+}
+.card * {
+    position: relative;
+    z-index: 2;
+}
+.card{
+    border : 1px solid #333;
+    max-width: 384px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #2e2e2e;
+    position: relative;
+    padding: 36px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.04);
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.card img{
+    height: 48px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.card__text{
+    color: #999;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
