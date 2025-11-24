@@ -12,7 +12,6 @@
     height: 80px;
     padding: 20px 50px;
     background-color: #000;
-    
 }
 .logo{
     display: flex;
@@ -164,22 +163,26 @@
     padding: 100px 50px;
     background-color: #000;
 }
-.decentralised_second{
-    font-size: 13px;
+.decentralised_second {
+    font-size: 18px;
     font-weight: 500;
     color: #9DFF3A;
-    margin-bottom: 16px;
-    border: 1px solid #999999;
+    border: 1px solid #2e2e2e;
     border-radius: 40px;
-    padding: 12px;
-    max-width: 100px;
+    padding: 8px 18px;
+    display: block;
+    width: max-content;   
+    margin: 0 auto; 
+    margin-bottom: 20px;
+          
 }
 .title__text{
-     display: flex;
+    text-align: center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    width: 100%; 
 }
 .main__text{
     color: #e5e5e5;
@@ -194,25 +197,19 @@
     align-items: stretch; /* <— важно */
     gap: 30px;
 }
-.card * {
-    position: relative;
-    z-index: 2;
-}
 .card{
     border : 1px solid #333;
     max-width: 384px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    background: #2e2e2e;
     position: relative;
     padding: 36px;
     border-radius: 12px;
-    background: rgba(255,255,255,0.04);
     overflow: hidden;
     border: 1px solid #333;
+    margin-top: 80px;
 }
-
 .card img{
     height: 48px;
     object-fit: contain;
@@ -220,9 +217,78 @@
     margin-bottom: 20px;
 }
 
-.card__text{
+.card__text p{
     color: #999;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     margin-top: 20px;
 }
+.card__title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e5e5e5;
+}
+.third__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #0f0f0f;
+    
+}
+.user__holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+    gap: 96px;
+    color: #9DFF3A;
+}
+.user__info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+.user__info h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+.user__info-container {
+    margin-top: 48px; 
+}
+.user__info-text{
+    display: flex;
+    margin-top: 72px;
+    margin-bottom: 120px;
+}
+.Four_page{
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #000;
+}
+.title__container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+.main_four-info{
+    display: flex;
+    justify-content: center;
+}
+.technology__cards{
+    margin-top: 80px;
+    max-height: 156px;
+}
+.technology__cards img{
+    height: 48px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 20px;
+}
+
